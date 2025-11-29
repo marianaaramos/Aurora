@@ -1,0 +1,57 @@
+body {
+            background-color: #d8c4e5;
+             margin: 0;
+             padding: 0;
+        }
+       
+        .login {
+            font-family: arial;              
+            border: 2px solid #494949;       
+            border-radius: 8px;              
+            background-color: #917aa2;       
+            color: white;                    
+            padding: 20px;                   
+            width: 300px;                    
+            margin-left: 500px;              
+            margin-top: 30px;                
+            margin-bottom: 50px;             
+        }
+
+        #input {
+            padding: 6px 120px;             
+            padding-left: 8px;              
+            border-radius: 8px;              
+            border: 0px;                     
+        }
+
+        #criarConta {
+            color: black;                    
+            background-color: #d8c4e5;       
+            border: 2px solid #766483;       
+            border-radius: 0px;              
+            font-size: 15px;                 
+        }
+
+        #criarConta:hover {
+            color: #fff;                     
+            background-color: #917aa2;       
+        }
+
+        button:hover {
+            background-color: #abafb4a9;     
+        }
+
+        #titulo {
+            margin-top: 40px;                
+        }
+
+        footer {
+         font-family: arial;
+         font-size: 13px;
+         background-color: #e8ecf0;
+         padding: 15px 20px;
+         line-height: 1.3;
+      }
+      #footer {
+         color: #a8abac;
+      }

@@ -1,0 +1,117 @@
+body {
+      background-color: #d8c4e5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3, h4 {
+      color: #000;
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between; 
+      background-color: #917aa2;
+      box-shadow: 0 4px 10px #5c4b68;
+      padding-left: 0;
+      position: fixed;
+      padding: 0 40px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90px;
+      z-index: 10;
+    }
+   
+    #logo {
+      height: 70px;
+      margin-top: 11px;
+    }
+
+    .main-nav ul {
+      list-style: none; 
+      margin: 0;
+      display: flex; 
+      gap: 30px; 
+      align-items: center; 
+      height: 90px;
+      margin-right: 105px;
+    }
+
+    .main-nav a {
+      text-decoration: none;
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+  }
+
+    .main-nav a:hover {
+      color: #d8c4e5; 
+    }
+
+    #login-nav {
+      margin-left: auto;
+      padding-left: 510px;
+    }
+
+    .danger-all {
+      display: block;              
+      margin-top: 150px;           
+      border: 12px #fff;           
+      background-color: white;     
+      border-radius: 8px;          
+      width: 600px;                
+      height: 350px;               
+    }
+
+    .open-apps {
+      margin-top: 40px;            
+    }
+
+    .install {
+      width: 100px;                
+      color: white;                
+      background-color: #917aa2;   
+      border: 2px solid #766483;   
+      border-radius: 0px;          
+      font-size: 15px;             
+    }
+
+    .install:hover {
+      color: #000;                 
+      background-color: #d8c4e5;   
+    }
+
+    footer {
+      font-family: arial;          
+      font-size: 13px;             
+      background-color: #e8ecf0;   
+      padding: 15px 20px;         
+      line-height: 1.3;            
+      margin-top: 50px;            
+    }
+
+    #footer {
+      color: #a8abac;              
+    }
+
+    #submit-button {
+      width: 120px;               
+      color: white;                
+      background-color: #917aa2;  
+      border: 2px solid #766483;   
+      border-radius: 0px;          
+      font-size: 12px;             
+    }
+
+    #submit-button:hover {
+      color: #000;                 
+      background-color: #d8c4e5;   
+    }

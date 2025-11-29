@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora - página inicial</title>
+  <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+
+<header>
+    <img src="assets/imagens/aurora_logo.png" alt="Logo Aurora" id="logo">
+
+    <nav class="main-nav">
+        <ul>
+           <li><a href="index.html">Início</a></li>
+            <li><a href="teste.html">Como funciona</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li id="login-nav"><a href="login.html">Cadastro/Login</a></li>
+        </ul>
+    </nav> 
+  </header>
+
+  <h3>Você não está sozinha, está com Aurora.</h3>
+
+  <section class="image-bg">
+    <div class="main-content">
+      <div class="text-section">
+        <p>
+          Nossa missão é oferecer <strong>joias discretas</strong>, unindo beleza e proteção para quem busca
+          <strong>segurança e resposta imediata</strong> em momentos de vulnerabilidade. O rastreador embutido
+          permite que, ao menor sinal de perigo, <strong>basta um toque para ativar a rede de apoio.</strong> 
+          Sua localização será compartilhada automaticamente.
+        </p>
+      </div>
+
+      <div class="carousel-section">
+      <h2>Projetos Que Apoiamos</h2>
+      <div class="carousel-container">
+        <img src="assets/imagens/protesto.jpg" alt="Ativismo Feminino" class="carousel-image">
+        <img src="assets/imagens/professora.jpg" alt="Mulheres na Ciência" class="carousel-image">
+        <img src="assets/imagens/protesto2.jpg" alt="Direitos de Mulheres Negras" class="carousel-image">
+      </div>
+    </div>
+    </div>
+  </section>
+  <button id="projects" type="submit" onclick="projects()">Saiba mais</button>
+
+  <div class="catalog">
+    <h1 id="best-sellers">Modelos mais vendidos</h1>
+    <center>
+      <div class="acessories-photo">
+    <img src="assets/imagens/anel.png" class="acessories" onclick="openCatalog()">
+    <p class="caption">Anel de segurança impresso em resina fotopolimerizável de alta resistência. Estrutura oca para acomodar microcomponente eletrônico, ideal para uso discreto. Rastreador BLE, bateria CR2032.</p>
+      </div>
+    <div class="acessories-photo">
+    <img src="assets/imagens/pulseira.png" class="acessories" onclick="openCatalog()">
+    <p class="caption">Pulseira modular impressa em TPU flexível, com fecho em PLA rígido. Confortável e resistente ao uso diário, permite integração com botão de acionamento interno. Rastreador BLE, bateria CR2032.</p>
+    </div>
+    <div class="acessories-photo">
+    <img src="assets/imagens/colar.png" class="acessories" onclick="openCatalog()">
+    <p class="caption">Pingente impresso em PLA biodegradável com cavidade interna para circuito leve. Cordão ajustável em silicone. Design leve e ergonômico para uso contínuo. Rastreador BLE, bateria CR2032.</p>
+    </div></center>
+  </div>
+
+  <center><div class="try-alert">
+    <h3 id="alert-text">Teste e saiba como funcionam nossos sistemas de rastreamento</h3>
+    <button type="submit" id="alert-button" onclick="openTry()">Teste agora</button>
+  </div></center>
+
+  <section class="news">
+    <center><h3>Últimas notícias:</h3>
+  </center><ul>
+    <li><a href="https://criola.org.br/?doing_wp_cron=1762726252.0520539283752441406250"> Atualização 7.089.4V</a></li> <br>
+    <li><a href="https://www.onumulheres.org.br/areas-tematicas/empoderamento-economico/projetos/">Evento gratuito de saúde mental feminina no Teatro Positivo</a></li><br>
+    <li><a href="https://fiocruz.br/mulheres-e-meninas-na-ciencia"> Últimas notícias policiais</a></li><br>
+    </ul>
+  </section>
+
+  <center><div class="faq">
+    <h3 id="faq-title">Dúvidas? Nos escreva!</h3>
+    <form class="faq-form">
+      <label for="email" id="email">Digite seu email:</label><br>
+      <input type="email" id="email-box" placeholder="seu.email@exemplo.com"><br><br>
+
+      <label for="subject" id="subject">Assunto:</label><br>
+      <select id="subject-options">
+        <option value="select">Selecione uma das opções</option>
+        <option value="site">Dúvidas sobre o site</option>
+        <option value="app">Dúvidas sobre o app</option>
+        <option value="products">Dúvidas sobre os produtos</option>
+        <option value="other">Outro</option>
+      </select><br><br>
+
+      <label for="question" id="question">Mensagem:</label><br>
+      <textarea id="question-box" name="message" rows="8" cols="63" placeholder="Escreva sua dúvida"></textarea>
+      <br><br>
+      <button type="submit" id="faq-button" onclick="buttonFaq(event)">Enviar</button>
+    </form>
+    <p id="message" style="margin-top:20px; font-weight:bold;"></p>
+  </div></center>
+
+  <section class="benefits" style="text-align:center; margin-top:30px;">
+    <h4>Conheça alguns benefícios do Aurora:</h4>
+    <p>
+      Dispositivos de segurança discretos;<br>
+      App na palma da sua mão e fácil acesso;<br>
+      Bases policiais conectadas diretamente ao app.
+    </p>
+  </section>
+
+  <footer>
+   <div id="pre_rodape">
+   Contate-nos:<br>
+   auroraemail@gmail.com<br>
+   (41) 98888-7777
+</div><br>
+   <div id="footer">© 2025 Aurora - Todos os direitos reservados. CNPJ 00.000.000/0000-00 | Rua NotFull, 001, Curitiba Paraná - PR
+      </div>
+   </footer>
+
+   <script src="assets/js/index.js"></script>
+</body>
+</html>

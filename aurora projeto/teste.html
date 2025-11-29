@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="assets/css/teste.css">
+</head>
+<body>
+    <header>
+    <img src="assets/imagens/aurora_logo.png" alt="Logo Aurora" id="logo">
+
+    <nav class="main-nav">
+        <ul>
+           <li><a href="index.html">Início</a></li>
+            <li><a href="teste.html">Como funciona</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li id="login-nav"><a href="login.html">Cadastro/Login</a></li>
+        </ul>
+    </nav> 
+  </header>
+
+    <center><div class="danger-all">
+      <br><br><h2 id="danger-title">Qual o nível de perigo que você se encontra?</h2><br>
+      <form id="danger">
+        <label><input type="radio" name="answer" id="low">Baixo - O usuário sente-se inseguro, mas ainda não está em perigo direto.</label><br><br>
+        <label><input type="radio" name="answer" id="medium">Médio - Há um risco iminente, mas ainda sem agressão física confirmada.</label><br><br>
+        <label><input type="radio" name="answer" id="high">Alto - O usuário está em situação de perigo real e imediato.</label><br><br>
+        <button type="button" id="submit-button" onclick="helpWarning()">Envie seu status</button>
+      </form>
+      <p id="message" style="margin-top:20px; font-weight:bold;"></p>
+    </div>
+  </div></center>
+
+<center><div class="open-apps">
+    <h2 id="apps-title">Para utilizar todas as funções do Aurora com mais qualidade e<br>agilidade, instale já o app no seu celular!</h2>
+    <button type="submit" class="install" onclick="openPlaystore()">Baixar na PlayStore</button>
+    <button type="submit" class="install" onclick="openApplestore()">Baixar na Apple Store</button>
+</div></center>
+
+
+  <footer>
+   <div id="pre_rodape">
+   Contate-nos:<br>
+   auroraemail@gmail.com<br>
+   (41) 98888-7777
+    </div><br>
+    <div id="footer">© 2025 Aurora - Todos os direitos reservados. CNPJ 00.000.000/0000-00 | Rua NotFull, 001, Curitiba Paraná - PR
+      </div>
+   </footer>
+   <script src="assets/js/teste.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+body {
+      background-color: #d8c4e5; 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      padding-top: 90px; 
+    }
+
+    h1, h2, h3, h4 {
+      color: #000; 
+    }
+
+    header {
+      display: flex; 
+      justify-content: space-between; 
+      background-color: #917aa2; 
+      box-shadow: 0 4px 10px #5c4b68; 
+      padding-left: 0; 
+      position: fixed; 
+      padding: 0 40px; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 90px; 
+      z-index: 10; 
+    }
+
+    #logo {
+      height: 70px; 
+      margin-top: 11px; 
+    }
+
+    .main-nav ul {
+      list-style: none; 
+      margin: 0; 
+      display: flex; 
+      gap: 30px; 
+      align-items: center; 
+      height: 90px; 
+      margin-right: 105px; 
+    }
+
+    .main-nav a {
+      text-decoration: none; 
+      color: #000; 
+      font-size: 18px; 
+      font-weight: bold; 
+      transition: color 0.3s ease; 
+    }
+
+    .main-nav a:hover {
+      color: #d8c4e5; 
+    }
+
+    #login-nav {
+      margin-left: auto; 
+      padding-left: 510px; 
+    }
+
+    footer {
+      font-family: arial; 
+      font-size: 13px; 
+      background-color: #e8ecf0; 
+      padding: 15px 20px; 
+      line-height: 1.3; 
+      margin-top: 50px; 
+    }
+
+    #footer {
+      color: #a8abac; 
+    }
+
+
+    .catalog img {
+      width: 250px;              
+    }
+
+    .catalog {
+      margin-top: 70px;         
+    }
+
+    .acessories {
+      display: flex;             
+      flex-direction: row;       
+      align-items: center;       
+      gap: 20px;                 
+      margin-left: 80px;         
+      margin-top: 20px;          
+    }
+    
+    .acessories img {
+      cursor: pointer; 
+      transition: transform 0.6s ease; 
+      width: 250px; 
+      border-radius: 10px; 
+      transition: transform 0.4s ease; 
+      margin: 20px;
+      box-shadow: #5a5a5a 0 3px 10px;
+    }
+    .acessories:hover img {
+      transform: translateY(-16px) scale(1.05); 
+
+    }
+
+    .install {
+      width: 100px;             
+      color: white;              
+      align-items: center;
+      background-color: #917aa2; 
+      border: 2px solid #766483; 
+      border-radius: 0px;        
+      font-size: 15px;           
+    }
+
+    .install:hover {
+      color: #000;               
+      background-color: #d8c4e5; 
+    }
+
+    .acessories-install {
+      display: flex;             
+      align-items: center;       
+      justify-content: space-between; 
+      margin-right: 20px;        
+    }
+
+    .install-all {
+      text-align: center;        
+    }
+
+    .pre-venda {
+      margin-right: 35px;        
+    }
+
+    #catalog-title {
+      margin-left: 50px;         
+    }

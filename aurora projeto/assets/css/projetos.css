@@ -1,0 +1,21 @@
+.project-texts {
+        display: flex; 
+        flex-direction: column; 
+        margin-right: auto;
+        margin-left: 30px;
+    }
+
+   body {
+      background-color: #d8c4e5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      padding-top: 70px;
+    }
+
+    h1, h2, h3, h4 {
+      color: #000;
+    }
+    .faq {
+      margin-left: 40px;
+    }
